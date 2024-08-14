@@ -30,3 +30,27 @@ export const listar = (req: Request, res: Response) => {
 
     return res.status(200).json(instrutores)
 }
+
+export const detalhar = (req: Request, res: Response) => {
+
+  const { id } = req.params
+  
+  const instrutor = instrutores.find((item) => {
+
+        return item.id === Number(id)
+  })
+
+
+    if(!instrutor){
+
+        return res.status(404).json({
+
+            mensagem: "instrutor não encontrado(a)"
+        })
+    }
+
+
+
+
+    return res.status(200).json(instrutor)
+}
