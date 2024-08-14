@@ -6,6 +6,8 @@ import rotas from "./rotas"
 
 const app = express()
 
+// middle de json:
+
 app.use(express.json())
 
 app.use(rotas)
