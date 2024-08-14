@@ -21,6 +21,7 @@ type Tbancodedados = {
 
     proximoIndentificador: Tindentificador
     instrutores: Tinstrutores[]
+    proximoIndentificadorAula: Tindentificador
 
 }
 
@@ -28,6 +29,7 @@ type Tbancodedados = {
 const bancodeDados: Tbancodedados = {
 
     proximoIndentificador: 3,
+    proximoIndentificadorAula: 2,
     instrutores: [
         {
     
@@ -37,8 +39,7 @@ const bancodeDados: Tbancodedados = {
           aulas:  [
 
             {id: 1, nome: "aula de API Rest"}
-                  
-                  ]
+        ]
         },  
         {
     
