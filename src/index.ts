@@ -1,10 +1,13 @@
-import express, {Request, Response} from "express"
+import express from "express"
 import "dotenv/config"
-import { teste } from "./controladores/controladores"
+import rotas from "./rotas"
+
 
 
 const app = express()
 
-app.get("/", teste)
+app.use(express.json())
+
+app.use(rotas)
 
 app.listen(process.env.PORT)
