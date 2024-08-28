@@ -1,26 +1,39 @@
-# Minha Primeira API
+# PROJETO MUSIC APP 🎸🎶
 
-![giphy(1)](https://github.com/user-attachments/assets/b9adfbc0-cea3-477c-837f-ae03c7ada551)
+![music](https://github.com/user-attachments/assets/d8720c5a-eaf0-4280-9457-c595cd86aa6e)
 
 
-Bem-vindo ao repositório da minha primeira API REST! Este projeto foi criado para praticar e demonstrar minhas habilidades em desenvolvimento de APIs.
+
+PROJETO MUSIC APP é um site de música onde os usuários podem ouvir suas músicas favoritas, criar playlists, se conectar com amigos e compartilhar suas preferências musicais
 
 ## Descrição
 
-Esta API foi desenvolvida como um projeto de aprendizado para entender os conceitos fundamentais de APIs RESTful. Ela permite realizar operações básicas de CRUD (Criar, Ler, Atualizar e Deletar) em um recurso específico. A API é uma maneira de gerenciar e manipular dados de forma simples e eficiente.
+O PROJETO MUSIC APP é uma plataforma de streaming de música que permite aos usuários ouvir músicas, criar e compartilhar playlists, conectar-se com amigos e fazer upload de suas próprias músicas. Com uma interface intuitiva e diversas funcionalidades, o aplicativo oferece uma experiência musical personalizada e interativa para todos os amantes da música.
+
+
 
 ### Funcionalidades
 
-- **Criar**: Adicionar novos recursos ao sistema.
-- **Ler**: Consultar e visualizar os recursos existentes.
-- **Atualizar**: Modificar recursos existentes.
-- **Deletar**: Remover recursos do sistema.
+- **Player de Música**: Ouça músicas em alta qualidade diretamente no navegador.
+- **Pesquisa de Músicas**: Encontre rapidamente suas músicas preferidas com a barra de busca.
+- **Adicionar Amigos**: Conecte-se com amigos para ver e compartilhar playlists.
+- **Cadastro e Login**: Crie uma conta ou entre em sua conta existente para acessar suas playlists e amigos.
+- **Subir Músicas**: Faça upload de suas próprias músicas para compartilhar com seus amigos.
 
 ### Tecnologias Utilizadas
 
-- **Linguagem**: JavaScript,Typescript
+- **Linguagem**: JavaScript, Typescript, CSS, HTML5, Node.js, Jest.
 - **Framework**:  Express.js
 
 
-   ![giphy(2)](https://github.com/user-attachments/assets/6fedce6e-3a37-47e8-9c05-0043f4f502db)
+   ![dance](https://github.com/user-attachments/assets/0be3ca18-9ef1-4f54-ac17-41a6dbcf66bf)
+
+## Como Contribuir
+
+- Faça um fork do repositório.
+- Crie uma branch para sua feature (git checkout -b feature/nome-da-feature).
+- Faça commit das suas alterações (git commit -m 'Adicionei uma nova feature').
+- Faça push para a branch (git push origin feature/nome-da-feature).
+- Abra um Pull Request.
+
 
